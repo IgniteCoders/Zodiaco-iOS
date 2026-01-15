@@ -5,7 +5,6 @@
 //  Created by Tardes on 14/1/26.
 //
 
-import Foundation
 import UIKit
 
 struct Horoscope {
