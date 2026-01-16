@@ -13,7 +13,7 @@ struct Horoscope {
     let dates: String
     
     func getIcon() -> UIImage? {
-        UIImage(named: "horoscope_icons/\(id)_icon")
+        return UIImage(named: "horoscope_icons/\(id)_icon")
     }
     
     static let horoscopeList: [Horoscope] = [
